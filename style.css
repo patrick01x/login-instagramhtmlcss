@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+body {
+    background-color: #FBFBFB;
+}
+
+.phone {
+    position: absolute;
+    left: 514px;
+    top: 146px;
+}
+
+#container img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    left: 669px;
+    top: 172px;
+    opacity: 0;
+    -webkit-animation: opacity 8s linear infinite;
+    -moz-animation: opacity 8s linear infinite;
+    animation: opacity 8s linear infinite;
+}
+
+@keyframes opacity {
+
+    5%,
+    25% {
+        opacity: 1;
+    }
+
+    0%,
+    30%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes opacity {
+
+    5%,
+    25% {
+        opacity: 1;
+    }
+
+    0%,
+    30%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes opacity {
+
+    5%,
+    25% {
+        opacity: 1;
+    }
+
+    0%,
+    30%,
+    100% {
+        opacity: 0;
+    }
+}
+
+#container img:nth-child(1) {
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+    animation-delay: 0;
+}
+
+#container img:nth-child(2) {
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+#container img:nth-child(3) {
+    -webkit-animation-delay: 4s;
+    -moz-animation-delay: 4s animation-delay: 4s;
+}
+
+#container img:nth-child(4) {
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.myyes {
+    box-sizing: border-box;
+    position: absolute;
+    width: 19.53vw;
+    height: 18.69vw;
+    left: 51.35vw;
+    top: 8.59vw;
+    background-color: #fff;
+    border: 0.05vw solid rgba(0, 0, 0, 0.15);
+}
+
+.logoinsta {
+    position: absolute;
+    left: 4.63vw;
+    top: 2.60vw;
+}
+
+.minhafoto {
+    position: absolute;
+    left: 7.34vw;
+    top: 6.71875vw;
+    border-radius: 3.90625vw;
+}
+
+.btn {
+    position: absolute;
+    top: 13.177083333333334vw;
+    left: 4.84375vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.6770833333333334vw;
+    letter-spacing: 0.05em;
+    background: #0094FF;
+    border-radius: 0.2604166666666667vw;
+    color: #FFFFFF;
+    transition: all ease 0.7s;
+    padding: 0.5208333333333334vw 0.5208333333333334vw;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.text-btn {
+    position: absolute;
+    top: 15.625vw;
+    left: 6.5625vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.6770833333333334vw;
+    letter-spacing: 0.05em;
+    border-radius: 0.2604166666666667vw;
+    color: #0094FF;
+    transition: all ease 0.7s;
+    padding: 0.5208333333333334vw 0.5208333333333334vw;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.mytwo {
+    box-sizing: border-box;
+    position: absolute;
+    width: 19.53125vw;
+    height: 5.15625vw;
+    left: 51.354166666666664vw;
+    top: 27.864583333333332vw;
+    background-color: #fff;
+    border: 0.052083333333333336vw solid rgba(0, 0, 0, 0.15);
+}
+
+.mytwo2 {
+    display: flex;
+    justify-content: center;
+}
+
+.nao {
+    position: absolute;
+    top: 1.5625vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7291666666666666vw;
+    line-height: 0.8333333333333334vw;
+    color: #727272;
+}
+
+.text-btn1 {
+    position: absolute;
+    top: 2.7604166666666665vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.6770833333333334vw;
+    letter-spacing: 0.05em;
+    border-radius: 0.2604166666666667vw;
+    color: #0094FF;
+    transition: all ease 0.7s;
+    padding: 0.5208333333333334vw 0.5208333333333334vw;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* @media (max-width: 1000px) { fiquei cansado de terminar '-'
+    .phone {
+        display: none;
+    }
+
+    #container {
+        display: none;
+    }
+
+    .myyes {
+        position: absolute;
+        top: 450px;
+        left: 150px;
+        width: 700px;
+        height: 700px;
+    }
+} */
